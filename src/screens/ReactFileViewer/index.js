@@ -12,7 +12,9 @@ import samplePdf from 'assets/react-file-viewer-example-files/sample.pdf';
 import sampleRtf from 'assets/react-file-viewer-example-files/sample.rtf';
 import sampleWexbim from 'assets/react-file-viewer-example-files/SampleHouse.wexbim';
 import sampleDocx from 'assets/react-file-viewer-example-files/SampleSpec.docx';
-import SimpleSpreadsheet from 'assets/react-file-viewer-example-files/SimpleSpreadsheet.xlsx';
+import samplePptx from 'assets/react-file-viewer-example-files/SamplePpt.pptx';
+import SampleSpreadsheet from 'assets/react-file-viewer-example-files/SimpleSpreadsheet.xlsx';
+import SampleSpreadsheet2 from 'assets/react-file-viewer-example-files/Spreadsheet2.xlsx';
 import sampleMp4 from 'assets/react-file-viewer-example-files/small.mp4';
 import sampleWebm from 'assets/react-file-viewer-example-files/small.webm';
 import sampleMov from 'assets/react-file-viewer-example-files/step.mov';
@@ -67,8 +69,18 @@ const sampleFiles = [
     type: 'docx',
   },
   {
-    name: 'SimpleSpreadsheet',
-    file: SimpleSpreadsheet,
+    name: 'samplePptx',
+    file: samplePptx,
+    type: 'pptx',
+  },
+  {
+    name: 'SampleSpreadsheet',
+    file: SampleSpreadsheet,
+    type: 'xlsx',
+  },
+  {
+    name: 'SampleSpreadsheet2',
+    file: SampleSpreadsheet2,
     type: 'xlsx',
   },
   {
