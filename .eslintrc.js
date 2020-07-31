@@ -1,3 +1,5 @@
+const prettierConfig = require('./.prettierrc.js');
+
 module.exports = {
   env: {
     browser: true,
@@ -36,13 +38,11 @@ module.exports = {
     semi: 1,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "prettier/prettier": [
-      "error", {
-        singleQuote: true,
-        semi: true
-      }
+      "error", prettierConfig
     ],
     "import/no-extraneous-dependencies": "off",
-    "react/jsx-props-no-spreading": "off"
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off"
   },
   overrides: [
     {
